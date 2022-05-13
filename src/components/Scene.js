@@ -35,4 +35,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/scene.gltf')
+useGLTF.preload('Fleece-Jacket/scene.gltf')
