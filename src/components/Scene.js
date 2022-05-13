@@ -17,7 +17,7 @@ export default function Model(props) {
   dracoLoader.setDecoderPath( '/draco/gltf/' );
   loader.setDRACOLoader( dracoLoader );
 
-  const {nodes, materials} = useGLTF(`../${props.permalink}/scene.gltf`)
+  const {nodes, materials} = useGLTF(`${props.permalink}/scene.gltf`)
 
   console.log(props.permalink);
 
